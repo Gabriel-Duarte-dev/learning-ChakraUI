@@ -1,0 +1,75 @@
+.txtLinearBg {
+  background-image: linear-gradient(90deg, #23A1C9 0%, #5C9D1C 100%);
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+  font-size: 22px;
+  letter-spacing: 0.5px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.taskValue,
+.taskValueDark {
+  max-width: 84%;
+}
+.taskValueDark {
+  color: rgb(182, 182, 182);
+}
+
+.PlusIcon,
+.BackSpaceIcon,
+.EditIcon,
+.CheckIcon,
+.RefreshIcon,
+.PlusIconDark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.PlusIcon {
+  color: rgb(175, 175, 175);
+  padding: 4px;
+}
+.PlusIcon:hover {
+  background: #f1f1f1;
+}
+.PlusIcon:active {
+  background: #e2e2e2;
+}
+
+.PlusIconDark {
+  color: rgb(105, 105, 105);
+  padding: 4px;
+}
+.PlusIconDark:hover {
+  background: #1f1f1f;
+}
+.PlusIconDark:active {
+  background: #111111;
+}
+
+.BackSpaceIcon {
+  color: rgb(255, 0, 0);
+  margin-left: 5px;
+}
+
+.EditIcon {
+  color: #5C9D1C;
+}
+
+.CheckIcon {
+  color: rgb(175, 175, 175);
+}
+.CheckIcon:hover,
+.CheckedIcon {
+  color: #5C9D1C;
+}
+
+.RefreshIcon {
+  color: #23A1C9;
+}
